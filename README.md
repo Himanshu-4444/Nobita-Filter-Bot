@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://telegra.ph/file/61ef9818986cef9554017.jpg" alt="NobiDeveloper Logo">
+  <img src="[https://telegra.ph/file/61ef9818986cef9554017.jpg](https://telegra.ph/file/9e8c93af6c642456a7ff6.jpg)" alt="Clipmate Movies Logo">
 </p>
 <h1 align="center">
   𝙉𝙤𝙗𝙞𝙩𝙖 𝙁𝙞𝙡𝙩𝙚𝙧 𝘽𝙤𝙩
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=NOBITA+FILTER+BOT+!;CREATED+BY+NOBI+DEVELOPER!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=CLIPMATE+MOVIES+BOT+!;CREATED+BY+VISUAL+MOVIES!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
 </p>
 
 ## 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠
