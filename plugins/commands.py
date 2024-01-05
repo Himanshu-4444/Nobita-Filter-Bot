@@ -254,7 +254,7 @@ async def start(client, message):
             g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=allfiles_{file_id}", True)
             buttons = [
             [
-                InlineKeyboardButton('📥  ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ  📥', url="https://telegram.me/visualmovies1")
+                InlineKeyboardButton('📥  ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ  📥', url=g)
             ],
             [
                 InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  ⁉️', url="https://telegram.me/visualmovies1")
@@ -264,7 +264,7 @@ async def start(client, message):
             g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=allfiles_{file_id}", False)
             buttons = [
             [
-                InlineKeyboardButton('📥  ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ  📥', url="https://telegram.me/visualmovies1")
+                InlineKeyboardButton('📥  ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ  📥', url=g)
             ],
             [
                 InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  ⁉️', url=await get_tutorial(chat_id))
@@ -284,7 +284,7 @@ async def start(client, message):
         k = await client.send_message(chat_id=message.from_user.id,text=f"<b>📂  𝐍𝐚𝐦𝐞  ➠  <code>{files.file_name}</code> \n\n♻️  𝐒𝐢𝐳𝐞  ➠  {get_size(files.file_size)}\n\n<b>⚠️  ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀꜰᴛᴇʀ 𝟷𝟶 ᴍɪɴᴜᴛᴇꜱ ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪꜱꜱᴜᴇꜱ.</b>", reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('📥  ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ  📥', url="https://telegram.me/visualmovies1")
+                        InlineKeyboardButton('📥  ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ  📥', url=g)
                     ], [
                         InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  ⁉️', url=await get_tutorial(chat_id))
                     ]
