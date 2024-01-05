@@ -257,7 +257,7 @@ async def start(client, message):
                 InlineKeyboardButton('📥  ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ  📥', url=g)
             ],
             [
-                InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  ⁉️', url="https://telegram.me/visualmovies1")
+                InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  ⁉️', url="https://t.me/howtoopenlinkclipmate/8")
             ]
             ]
         else:
