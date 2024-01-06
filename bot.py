@@ -103,7 +103,6 @@ class Bot(Client):
                 current += 1
 
 if __name__ == '__main__':
-    #import os ( above )
-    port = int(os.environ.get('PORT'))
+    port = int(environ.get('PORT'))
     app = Bot()
     app.run(host='0.0.0.0', port=port)
