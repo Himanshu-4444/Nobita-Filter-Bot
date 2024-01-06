@@ -267,7 +267,7 @@ async def start(client, message):
                 InlineKeyboardButton('📥  ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ  📥', url=g)
             ],
             [
-                InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  ⁉️', url=await get_tutorial(chat_id))
+                InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  ⁉️', url="https://t.me/howtoopenlinkclipmate/8")
             ]
             ]
         k = await client.send_message(chat_id=message.from_user.id,text=f"<b>ɢᴇᴛ ᴀʟʟ ꜰɪʟᴇꜱ ɪɴ ᴀ ꜱɪɴɢʟᴇ ᴄʟɪᴄᴋ ✅\n\n⚠️  ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀꜰᴛᴇʀ 𝟷𝟶 ᴍɪɴᴜᴛᴇꜱ ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪꜱꜱᴜᴇꜱ.</b>", reply_markup = InlineKeyboardMarkup(buttons)
@@ -286,7 +286,7 @@ async def start(client, message):
                     [
                         InlineKeyboardButton('📥  ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ  📥', url=g)
                     ], [
-                        InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  ⁉️', url=await get_tutorial(chat_id))
+                        InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  ⁉️', url="https://t.me/howtoopenlinkclipmate/8")
                     ]
                 ]
             )
