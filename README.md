@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/9e8c93af6c642456a7ff6.jpg" alt="Clipmate Movies Logo">
 </p>
 <h1 align="center">
-  𝙉𝙤𝙗𝙞𝙩𝙖 𝙁𝙞𝙡𝙩𝙚𝙧 𝘽𝙤𝙩
+  CLIPMATE MOVIES BOT
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=CLIPMATE+MOVIES+BOT+!;CREATED+BY+VISUAL+MOVIES!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
