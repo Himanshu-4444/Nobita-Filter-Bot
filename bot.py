@@ -102,7 +102,5 @@ class Bot(Client):
                 yield message
                 current += 1
 
-if __name__ == '__main__':
-    port = int(environ.get('PORT', 5000))
     app = Bot()
     app.run()
