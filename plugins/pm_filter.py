@@ -214,13 +214,13 @@ async def next_page(bot, query):
             )
     if ENABLE_SHORTLINK == True:
         btn.insert(0, [
-            InlineKeyboardButton("♻️  ꜱᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}"),
+            InlineKeyboardButton("♻️  ꜱᴇɴᴅ ᴀʟʟ", callback_data=f"send_fall#{pre}#{key}#{offset}"),
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
             InlineKeyboardButton("⚜️  ᴛɪᴘꜱ", callback_data="sinfo")
         ])
     else:
         btn.insert(0, [
-            InlineKeyboardButton("♻️ ꜱᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}"),
+            InlineKeyboardButton("♻️ ꜱᴇɴᴅ ᴀʟʟ", callback_data=f"send_fall#{pre}#{key}#{offset}"),
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
             InlineKeyboardButton("⚜️  ᴛɪᴘꜱ", callback_data="sinfo")
         ])
@@ -392,12 +392,12 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         )
     if ENABLE_SHORTLINK == True:
         btn.insert(0, [
-            InlineKeyboardButton("ꜱᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}"),
+            InlineKeyboardButton("ꜱᴇɴᴅ ᴀʟʟ", callback_data=f"send_fall#{pre}#{key}#{offset}"),
             InlineKeyboardButton("ꜱᴇʟᴇᴄᴛ ᴀɢᴀɪɴ", callback_data=f"languages#{key}")
         ])
     else:
         btn.insert(0, [
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
+            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"send_fall#{pre}#{key}#{offset}"),
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
     btn.insert(0, [
@@ -1582,13 +1582,13 @@ async def auto_filter(client, msg, spoll=False):
     temp.GETALL[key] = files
     if ENABLE_SHORTLINK == True:
         btn.insert(0, [
-            InlineKeyboardButton("♻️  ꜱᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}"),
+            InlineKeyboardButton("♻️  ꜱᴇɴᴅ ᴀʟʟ", callback_data=f"send_fall#{pre}#{key}#{offset}"),
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
             InlineKeyboardButton("⚜️  ᴛɪᴘꜱ", callback_data="sinfo")
         ])
     else:
         btn.insert(0, [
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
+            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"send_fall#{pre}#{key}#{offset}"),
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
     if offset != "":
